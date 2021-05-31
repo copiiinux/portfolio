@@ -1,1 +1,17 @@
-
+<mat-toolbar color="primary">
+  <span>Portfolio</span>
+  <nav>
+    <a mat-button routerLink="/about">About</a>
+    <a mat-button routerLink="/skills">Skills & tools</a>
+    <a mat-button routerLink="/projects">Projects</a>
+    <a mat-button routerLink="/contact">Contact</a>
+  </nav>
+  <span class="example-spacer"></span>
+  <button mat-icon-button>
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button>
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+<router-outlet></router-outlet>
